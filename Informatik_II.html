@@ -1,0 +1,615 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="de" data-theme="dark">
+	<head>
+		<title>Informatik II</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script>
+			(function() {
+				const savedTheme = localStorage.getItem("theme");
+				if (savedTheme) {
+					document.documentElement.setAttribute("data-theme", savedTheme);
+				}
+			})();
+		</script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Informatik II</a></h1>
+						<div class="theme-toggle" id="themeToggle">
+							<div class="toggle-slider"></div>
+						</div>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="CS_I.html">Control Systems I</a></li>
+											<li><a href="Informatik_II.html">Informatik II</a></li>
+											<li><a href="Zusätzliches_Material.html">Additional Material</a></li>
+											<li><a href="Feedback.html">Feedback</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				
+
+				<!-- Main -->
+					<article id="main" class="hero-header hero-info">
+						<header>
+							<h2>Informatik II</h2>
+						</header>
+						<section class="wrapper style2">
+							<div class="inner">
+								<!--
+								<section>
+									<h4>Text</h4>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<header>
+										<h4>Heading with a Subtitle</h4>
+										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+									</header>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<header>
+										<h5>Heading with a Subtitle</h5>
+										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+									</header>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h5>Blockquote</h5>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h5>Preformatted</h5>
+									<pre><code>i = 0;
+									
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+							-->
+								<!--
+								<section>
+									<h4>Lists</h4>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<h5>Unordered</h5>
+											<ul>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Sagittis adipiscing.</li>
+												<li>Felis enim feugiat.</li>
+											</ul>
+											<h5>Alternate</h5>
+											<ul class="alt">
+												<li>Dolor pulvinar etiam.</li>
+												<li>Sagittis adipiscing.</li>
+												<li>Felis enim feugiat.</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h5>Ordered</h5>
+											<ol>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Etiam vel felis viverra.</li>
+												<li>Felis enim feugiat.</li>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Etiam vel felis lorem.</li>
+												<li>Felis enim et feugiat.</li>
+											</ol>
+											<h5>Icons</h5>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<h5>Actions</h5>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<ul class="actions">
+												<li><a href="#" class="button primary">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button primary small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary fit">Default</a></li>
+												<li><a href="#" class="button fit">Default</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary small fit">Small</a></li>
+												<li><a href="#" class="button small fit">Small</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								-->
+								<section>
+									<h3>Material zur Übungsstunde</h3> 
+									<p>Hier findest Du eine Übersicht der Übungsstunden sowie die von mir bearbeiteten Slides. <br>
+										Natürlich können auch mir Fehler unterlaufen. Falls dir solche auffallen, wäre ich Dir sehr dankbar, <br>
+										wenn Du mir eine kurze <a href="mailto:jschul@ethz.ch">E-Mail</a> schreibst. <br> <br>
+										Link zur offiziellen Kurswebsite:
+										<a href="https://lec.inf.ethz.ch/mavt/informatik2/2025/" target="_blank">Informatik 2</a></p>
+										Link zu ZF, Notebooks etc:
+										<a href="Zusätzliches_Material.html" target="_blank">Zusätzliches Material</a></p>
+										
+									<hr />
+									
+									<div class="table-wrapper">
+										 <table class="post">
+											<thead>
+												<tr>
+													<th>Woche</th>
+													<th>Thema</th>
+													<th style="text-align: center;">Slides</th>
+													<th style="text-align: center;">Notizen</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>Python und JupyterLab</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 1/Informatik_Slides_1.pdf" class="button primary icon solid fa-download" target="_blank">Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download">Load</a></li>
+														</ul>
+												
+													</td>
+												</tr>
+												
+												<tr>
+													<td>2</td>
+													<td>Introduction: Python Containers</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 2/Informatik_Slides_2.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 2/Informatik_Slides_2_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+												
+													</td>
+												</tr>
+												
+												
+												<tr>
+													<td>3</td>
+													<td>List and Dict Comprehension, Numpy, Recursion </td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 3/Informatik_Slides_3.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>4</td>
+													<td> Python libraries: Matplotlib, pandas, <a href="Zusätzliches_Material.html">Zus. Mat.</a></td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 4/Informatik_Slides_4.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 4/Informatik_Slides_4.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>5</td>
+													<td>Classes and Programming Concepts, <a href="Zusätzliches_Material.html">Notebook</a></td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 5/Informatik_Slides_5.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+
+												
+												<tr>
+													<td>6</td>
+													<td>Algorithms, Asymptotic running time </td>
+														 <td>
+														
+															<ul class="actions">
+																<li><a href="download/Informatik_II/Woche 6/Informatik_Slides_6.pdf" class="button primary icon solid fa-download" target="_blank"
+																	>Load</a></li>
+															</ul>
+														
+														</td>
+														<td>
+															
+															<ul class="actions">
+																<li><a href="download/Informatik_II/Woche 6/Informatik_Slides_6_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																	>Load</a></li>
+															</ul>
+														
+														</td>
+												</tr>
+												
+												<tr>
+													<td>7</td>
+													<td>Binary search, recursive analysis, quicksort </td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 7/Informatik_Slides_7.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 7/Informatik_Slides_7_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>8</td>
+													<td>Search trees, heaps</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 8/Informatik_Slides_8.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 8/Informatik_Slides_8_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>9</td>
+													<td>DP Teil 1</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 9/Informatik_Slides_9.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 9/Informatik_Slides_9_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												<tr>
+													<td>10</td>
+													<td>DP Teil 2</td>
+													<td>
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 10/Informatik_Slides_10.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												<!--
+												<tr>
+													<td>11</td>
+													<td>Classes and Programming Concepts</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Icon</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Icon</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												-->
+												<tr>
+													<td>12</td>
+													<td>ML I: Decision Trees, regression</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 12/Informatik_Slides_12.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 12/Informatik_Slides_12_kommentiert.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>13</td>
+													<td>ML II: Complexity, CV, Neural Network</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 13/Informatik_Slides_13.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+												
+												<tr>
+													<td>14</td>
+													<td>ML III: Unsupervised learning, Clustering</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="download/Informatik_II/Woche 14/Informatik_Slides_14.pdf" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+													<td>
+														
+														<ul class="actions">
+															<li><a href="#" class="button primary icon solid fa-download" target="_blank"
+																>Load</a></li>
+														</ul>
+													
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</section>
+								<!--
+								<section>
+									<h4>Buttons</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button large">Large</a></li>
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button fit">Fit</a></li>
+										<li><a href="#" class="button primary fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+									</ul>
+									<ul class="actions fit small">
+										<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+										<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+								-->
+
+								<!--
+								<section>
+									<h4>Form</h4>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<select name="demo-category" id="demo-category">
+													<option value="">- Category -</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-normal" name="demo-priority">
+												<label for="demo-priority-normal">Normal</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="col-12">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+								-->
+
+								<!--
+								<section>
+									<h4>Image</h4>
+									<h5>Fit</h5>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										</div>
+									</div>
+									<h5>Left &amp; Right</h5>
+									<p><span class="image left"><img src="images/pic04.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+									<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
+								</section>
+								-->
+							</div>
+						</section>
+					</article>
+					<footer id="footer"></footer>
+				
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lightmode.js"></script>
+
+	</body>
+</html>

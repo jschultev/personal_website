@@ -1,0 +1,159 @@
+/* Unebnutzt */
+		.wrapper.style1 {
+			background-color: #21b2a6;
+			color: #c8ece9;
+		}
+
+			.wrapper.style1 strong, .wrapper.style1 b {
+				color: var(--color-text);
+			}
+
+			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+				color: var(--color-text);
+			}
+
+			.wrapper.style1 hr {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 blockquote {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 code {
+				background: rgba(255, 255, 255, 0.075);
+			}
+
+			.wrapper.style1 header p {
+				color: #a6e0db;
+			}
+
+			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 header.major p {
+				color: #c8ece9;
+			}
+
+			.wrapper.style1 label {
+				color: var(--color-text);
+			}
+
+			.wrapper.style1 input[type="text"],
+			.wrapper.style1 input[type="password"],
+			.wrapper.style1 input[type="email"],
+			.wrapper.style1 select,
+			.wrapper.style1 textarea {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+			.wrapper.style1 select {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.125)' /%3E%3C/svg%3E");
+			}
+
+				.wrapper.style1 select option {
+					color: var(--color-text);
+					background: #21b2a6;
+				}
+
+			.wrapper.style1 input[type="checkbox"] + label,
+			.wrapper.style1 input[type="radio"] + label {
+				color: #c8ece9;
+			}
+
+				.wrapper.style1 input[type="checkbox"] + label:before,
+				.wrapper.style1 input[type="radio"] + label:before {
+					background: rgba(255, 255, 255, 0.075);
+				}
+
+			.wrapper.style1 input[type="checkbox"]:checked + label:before,
+			.wrapper.style1 input[type="radio"]:checked + label:before {
+				background: var(--color-text);
+				color: #21b2a6;
+			}
+
+			.wrapper.style1 ::-webkit-input-placeholder {
+				color: #a6e0db !important;
+			}
+
+			.wrapper.style1 :-moz-placeholder {
+				color: #a6e0db !important;
+			}
+
+			.wrapper.style1 ::-moz-placeholder {
+				color: #a6e0db !important;
+			}
+
+			.wrapper.style1 :-ms-input-placeholder {
+				color: #a6e0db !important;
+			}
+
+			.wrapper.style1 .formerize-placeholder {
+				color: #a6e0db !important;
+			}
+
+			.wrapper.style1 .icon.major {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 ul.alt li {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 table tbody tr {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+			.wrapper.style1 table th {
+				color: var(--color-text);
+			}
+
+			.wrapper.style1 table thead {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 table tfoot {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 table.alt tbody tr td {
+				border-color: rgba(0, 0, 0, 0.125);
+			}
+
+			.wrapper.style1 input[type="submit"],
+			.wrapper.style1 input[type="reset"],
+			.wrapper.style1 input[type="button"],
+			.wrapper.style1 button,
+			.wrapper.style1 .button {
+				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+				color: var(--color-text);
+			}
+
+				.wrapper.style1 input[type="submit"]:hover,
+				.wrapper.style1 input[type="reset"]:hover,
+				.wrapper.style1 input[type="button"]:hover,
+				.wrapper.style1 button:hover,
+				.wrapper.style1 .button:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				.wrapper.style1 input[type="submit"]:active,
+				.wrapper.style1 input[type="reset"]:active,
+				.wrapper.style1 input[type="button"]:active,
+				.wrapper.style1 button:active,
+				.wrapper.style1 .button:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper.style1 .features li {
+					border-top-color: rgba(0, 0, 0, 0.125);
+				}
+
+			}
